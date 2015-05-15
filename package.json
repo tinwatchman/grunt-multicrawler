@@ -1,0 +1,26 @@
+{
+  "name": "grunt-multicrawler",
+  "version": "0.0.1",
+  "description": "A threaded web crawler for Grunt",
+  "main": "src/multicrawler.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": {
+    "name": "Jon Stout",
+    "url": "www.jonstout.net"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "cheerio": "^0.19.0",
+    "is-absolute-url": "^1.0.0",
+    "is-relative-url": "^1.0.0",
+    "simplecrawler": "^0.5.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "jasmine": "^2.3.1"
+  }
+}
